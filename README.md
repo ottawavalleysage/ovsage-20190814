@@ -47,6 +47,10 @@ What will we be using for all of this?
 - Ubuntu
 - Xip.io service
 
+This is a modified version of the 
+[HOWTO Forge article: Install Gitea using Docker on Ububtu](https://www.howtoforge.com/tutorial/install-gitea-using-docker-on-ubuntu/).
+It had most of what I wanted to describe and all it needed were a few tweaks to make if work for our talk. I doubt I changed much from the actual article.
+
 ### What is Gitea?
 
 Gitea is a fork of Gogs, the easy to use self-hosted Git service. It is similar
