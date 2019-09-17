@@ -62,7 +62,7 @@ ARM etc.
 
 You will:
 - Create the basic infrastructure for your new container
-- Author a suitable Docker Compose file (jind of an advanced Dockerfile)
+- Author a suitable Docker Compose file (kind of an advanced Dockerfile)
 - Install and configure the lightweight Git service Gitea.
 - Deploy the Gitea server using Docker be using the PostgreSQL database and Traefik Reverse proxy.
 
@@ -374,7 +374,7 @@ Also known as hurry up and wait.
 
 Issue the command `docker-compose up -d' and wait a bit.
 
-When it finished, you will be able to run the command `docker-compose ps` and see interesting things.
+When it is finished, you will be able to run the command `docker-compose ps` and see interesting things.
 
 ```
 ➜  deployment docker-compose ps
@@ -397,7 +397,7 @@ perform your initial configuration.
 #### First the database
 
 Select PostgreSQL, `db` as the host and `gitea` for the next three items. Leave
-SSL disabled. Why gitea, look at the docker-compose file for the configuration
+SSL disabled. Why `gitea`? Look at the docker-compose file for the configuration
 you gave it.
 
 #### Then the general config
@@ -421,4 +421,4 @@ You should now be redirected to your repository dashboard.
 
 - Docker upgrade. My version of Docker flagged an update when I loaded it while preparing for this. You can safely ignore it for now. You may want to update it on a higher speed network later.
 - Read up on Gitea. It is an elegant solution for much of the things you would want a git ecosystem for.
-- 
+- Look at docker-compose and what it actually does - management of your containers. Kubernetes is the "on steroids" version of this.
